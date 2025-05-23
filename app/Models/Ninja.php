@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ninja extends Model
 {
-    protected $fillable = ['name', 'bio', 'skill'];
+    protected $fillable = ['name', 'bio', 'skill', 'dojo_id'];
     /** @use HasFactory<\Database\Factories\NinjaFactory> */
     use HasFactory;
 
